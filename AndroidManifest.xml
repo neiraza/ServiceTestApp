@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="jp.co.fttx.hogeservice"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:label="らくフォト偽者">
+        <activity android:name="jp.co.fttx.hogeservice.HogeActivity"
+                  android:label="らくフォト偽者">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:enabled="true"
+            android:name="jp.co.fttx.hogeservice.HogeService" >
+        </service>
+    </application>
+</manifest> 
